@@ -3,7 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format": "bun x @biomejs/biome format --write ./src",
+    "lint": "bun x @biomejs/biome lint ./src",
+    "check": "bun x @biomejs/biome check --write ./src"
+  },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {

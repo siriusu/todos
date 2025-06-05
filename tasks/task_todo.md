@@ -30,7 +30,7 @@
 ### 2. 環境構築と初期設定
 
 - [x] A: Bun プロジェクトを初期化する
-- [ ] B: TypeScript をセットアップする
+- [x] B: TypeScript をセットアップする
 - [ ] C: Biome を導入し、設定を行う
 - [ ] D: React と ReactDOM をインストールする
 - [ ] E: Tailwind CSS と DaisyUI をセットアップする
