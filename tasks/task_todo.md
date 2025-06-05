@@ -33,12 +33,12 @@
 - [x] B: TypeScript をセットアップする
 - [x] C: Biome を導入し、設定を行う
 - [x] D: React と ReactDOM をインストールする
-- [ ] E: Tailwind CSS と DaisyUI をセットアップする
-- [ ] F: Git リポジトリを初期化し、初期コミットを行う
+- [x] E: Tailwind CSS と DaisyUI をセットアップする
+- [x] F: Git リポジトリを初期化し、初期コミットを行う
 
 ### 3. アプリケーション開発
 
-- [ ] A: React Router v7 をインストールし、ルーティングの基本設定を行う
+- [x] A: React Router v7 をインストールし、ルーティングの基本設定を行う
 - [ ] B: Todo List のメインコンポーネントを作成する
 - [ ] C: Todo の追加、表示、完了、削除機能を実装する
 - [ ] D: Todo データの状態管理を実装する (例: React Context, Zustand など)
