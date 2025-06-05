@@ -31,8 +31,8 @@
 
 - [x] A: Bun プロジェクトを初期化する
 - [x] B: TypeScript をセットアップする
-- [ ] C: Biome を導入し、設定を行う
-- [ ] D: React と ReactDOM をインストールする
+- [x] C: Biome を導入し、設定を行う
+- [x] D: React と ReactDOM をインストールする
 - [ ] E: Tailwind CSS と DaisyUI をセットアップする
 - [ ] F: Git リポジトリを初期化し、初期コミットを行う
 
