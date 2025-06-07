@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
+    "include": [
+      "**/*",
+      "**/.server/**/*",
+      "**/.client/**/*",
+      ".react-router/types/**/*"
+    ],
+
     // Environment setup & latest features
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["web", "bun-types"],
+    "types": ["node", "web", "bun-types"],
     "target": "ESNext",
     "module": "Preserve",
     "moduleDetection": "force",
@@ -14,6 +21,11 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
+    "rootDirs": [".", "./.react-router/types"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
 
     // Best practices
     "strict": true,
