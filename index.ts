@@ -1,1 +1,7 @@
-console.log("Hello via Bun!");
+import reactSinglePageApp from './index.html';
+
+Bun.serve({
+  routes: {
+    '/': reactSinglePageApp,
+  },
+});

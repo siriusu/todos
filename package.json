@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun serve",
+    "dev": "bun --hot index.ts",
     "format": "bun x @biomejs/biome format --write ./src",
     "lint": "bun x @biomejs/biome lint ./src",
     "check": "bun x @biomejs/biome check --write ./src"
